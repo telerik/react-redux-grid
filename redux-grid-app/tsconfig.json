@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib": ["es2015", "es2017", "dom"],
+        "declaration": false,
+        "outDir": "./dist"
+    },
+    "awesomeTypescriptLoaderOptions": {
+      "useTranspileModule": true,
+      "transpileOnly": true,
+      "useCache": true
+    },
+    "include": [
+        "./src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
