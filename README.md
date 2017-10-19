@@ -1,2 +1,11 @@
-React Redux Grid application
-Kendo UI Grid wrapper component for React using the Redux Pattern
+# React Redux Grid application
+The following repository contains Kendo UI Grid wrapper for React using the Redux Pattern
+
+## Getting Started
+
+  ``` 
+  npm install 
+  npm start 
+  ``` 
+ 
+ This will launch the examples website at http://localhost:3000

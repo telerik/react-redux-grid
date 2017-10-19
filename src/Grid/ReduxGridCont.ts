@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { sort, group, page, filter, remove, add, update } from './actions';
+import { sort, group, page, filter, remove, add, update } from './../redux/actions';
 import ReduxGrid from './ReduxGrid';
 
 
