@@ -8,4 +8,4 @@ The following repository contains Kendo UI Grid wrapper for React using the Redu
   npm start 
   ``` 
  
- This will launch the examples website at http://localhost:3000
+ This will launch the example at http://localhost:3000
