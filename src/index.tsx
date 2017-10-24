@@ -9,8 +9,8 @@ import { createStoreHelper } from './redux/reduxUtils/createStoreHelper';
 import '@progress/kendo-theme-default/dist/all.css';
 
 ReactDOM.render(
-    <Provider store={createStoreHelper(products)}>
-	        <ReduxGrid />
-	    </Provider>,
-	    document.getElementById('root') as HTMLElement
-	);
+<Provider store={createStoreHelper(products)}>
+ <ReduxGrid />
+</Provider>,
+document.getElementById('root') as HTMLElement
+);

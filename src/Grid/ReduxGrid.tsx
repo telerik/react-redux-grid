@@ -2,7 +2,6 @@ import * as React from 'react';
 
 import { Grid, GridColumn } from '@progress/kendo-grid-react-wrapper';
 
-
 export default class ReduxGrid extends React.Component<any, any> {
     private widgetInstance: kendo.ui.Grid = null;
     private options: any = null;
@@ -72,7 +71,7 @@ export default class ReduxGrid extends React.Component<any, any> {
                     <GridColumn field="UnitPrice" title="Unit Price" format="{0:c}" width="130px" key={3} />
                     <GridColumn field="UnitsInStock" title="Units In Stock" width="130px" key={4} />
                     <GridColumn field="Discontinued" width="130px" key={5} />
-                    <GridColumn command={[{"name": "edit", "text": "Edit"}, {"name": "destroy", "text": "Delete"}]} title="&nbsp;" width="250px" key={6}/> 
+                    <GridColumn command={[{'name': 'edit'}, {'name': 'destroy'}]} title="&nbsp;" width="250px" key={6}/>
                 </Grid>
             </div>
         );

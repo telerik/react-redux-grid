@@ -29,11 +29,12 @@ export default function (
     }
 
     let result: any = filterBy(items, filter);
+    const itemsLength = result.length;
     result = orderBy(result, groupDescriptors.concat(sortDescriptors));
     result = getItemsPerPage(result, page, pageSize);
     result = groupBy(result, groupDescriptors);
     result = toGroupable(result);
-    result.total = items.length;
+    result.total = itemsLength;
 
     return result;
 }
